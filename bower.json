@@ -1,8 +1,9 @@
 {
   "name": "ajax-file-input",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
-    "Liu Yang <liuyang1204@hotmail.com>"
+    "Liu Yang <liuyang1204@hotmail.com>",
+    "Loïc GAILLARD <gaillard.log@gmail.com>"
   ],
   "description": "Ajax file input with material design",
   "keywords": [
@@ -14,19 +15,20 @@
   ],
   "main": "ajax-file-input.html",
   "license": "MIT",
-  "homepage": "https://github.com/liuyang1204/ajax-file-input",
+  "homepage": "https://github.com/lgaillard/ajax-file-input",
   "ignore": [
     "/.*",
     "/tests/"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^0.5.2",
-    "paper-fab": "Polymer/paper-fab#~0.5.2",
-    "paper-progress": "Polymer/paper-progress#~0.5.2",
-    "core-label": "Polymer/core-label#~0.5.2",
-    "paper-toast": "Polymer/paper-toast#~0.5.2"
+    "polymer": "Polymer/polymer#^1.0.0",
+    "paper-fab": "PolymerElements/paper-fab#^1.0.3",
+    "paper-progress": "PolymerElements/paper-progress#^1.0.2",
+    "paper-toast": "PolymerElements/paper-toast#^1.0.0",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.0.3",
+    "iron-icons": "PolymerElements/iron-icons#^1.0.3"
   },
   "devDependencies": {
-    "web-component-tester": "Polymer/web-component-tester#^2.0.5"
+    "web-component-tester": "Polymer/web-component-tester#^3.3.10"
   }
 }
