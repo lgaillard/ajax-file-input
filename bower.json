@@ -1,11 +1,11 @@
 {
-  "name": "ajax-file-input",
-  "version": "0.0.3",
+  "name": "polymer1-file-input",
+  "version": "1.0.0",
   "authors": [
-    "Liu Yang <liuyang1204@hotmail.com>",
-    "Loïc GAILLARD <gaillard.log@gmail.com>"
+    "Loïc GAILLARD <gaillard.log@gmail.com>",
+    "Liu Yang <liuyang1204@hotmail.com>"
   ],
-  "description": "Ajax file input with material design",
+  "description": "Ajax file input with material design for Polymer 1.0",
   "keywords": [
     "web-component",
     "web-components",
@@ -13,9 +13,9 @@
     "file input",
     "ajax"
   ],
-  "main": "ajax-file-input.html",
+  "main": "polymer1-file-input.html",
   "license": "MIT",
-  "homepage": "https://github.com/lgaillard/ajax-file-input",
+  "homepage": "https://github.com/lgaillard/polymer1-file-input",
   "ignore": [
     "/.*",
     "/tests/"
