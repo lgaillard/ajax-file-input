@@ -155,6 +155,7 @@ It supports file drop.
                 this.progressInvisible = true;
                 this.progress = undefined;
                 var file = e.target.files[0];
+                this.fire('fileChange', {});
                 this.uploadFile(file);
             },
             cancel: function () {
